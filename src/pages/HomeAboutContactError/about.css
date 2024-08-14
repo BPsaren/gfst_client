@@ -1,0 +1,25 @@
+.about-containerr {
+    position: relative;
+    width: 100%;
+    height: 100vh; /* Full viewport height */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* Adjust the background color as needed */
+   
+    box-sizing: border-box; /* Ensure padding is included in the element's width and height */
+}
+
+.about-title {
+    color: black; /* White text color */
+    font-size: 3rem; /* Adjust as needed */
+    text-align: center;
+    z-index: 1; /* Ensure the text is above the background */
+    max-width: 80%; /* Constrain the width of the text */
+    line-height: 1.4; /* Improve readability */
+    text-align: justify;
+}
+
+.about-title span {
+    color:red;
+}

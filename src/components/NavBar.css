@@ -1,0 +1,125 @@
+/* Base styles */
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 170px;
+  padding: 10px 5%;
+ background-color: seagreen;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 100;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.brand h1 {
+  position: relative;
+  margin: 0;
+  font-size: 2em;
+  color: #fff;
+  z-index:10;
+  overflow: hidden;
+  font-weight: bold;
+}
+
+h1:before {
+  content: '';
+  position: relative;
+  left: 0;
+  width: 120%;
+  height: 100%;
+  background: linear-gradient(90deg, transparent 0%, #000 5%, #000 100%);
+  animation: animate 5.5s linear forwards;
+}
+
+@keyframes animate {
+  0% {
+    left: 110%;
+  }
+  120% {
+    left: -20%;
+  }
+}
+
+h1 span {
+  color: aqua;
+}
+
+.navbar ul {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  gap: 20px;
+}
+
+.navbar li {
+  list-style: none;
+}
+
+.nav-link {
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+  color: white;
+  font-weight: 500;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.nav-link span {
+  margin-left: 6px;
+}
+
+.nav-link:hover {
+  color: rgb(23, 225, 8);
+}
+
+.navbar .active {
+  color: rgb(23, 225, 8);
+}
+
+/* Mobile-specific styles */
+@media (max-width: 768px) {
+  .navbar ul {
+    display: none; /* Hide the navbar items by default on mobile */
+    flex-direction: column;
+    position: absolute;
+    top: 100%;
+    right: 0;
+    background: seagreen;
+    border-radius:0px  0px 5px 5px;
+    width: 200px;
+    padding: 10px;
+  }
+
+  .navbar ul.show {
+    display: flex; /* Show the navbar items when toggled */
+  }
+
+  .hamburger {
+    display: block; /* Show hamburger icon on mobile */
+    font-size: 24px;
+    color: white;
+    cursor: pointer;
+  }
+}
+
+/* Laptop/desktop-specific styles */
+@media (min-width: 769px) {
+  .hamburger {
+    display: none; /* Hide hamburger icon on larger screens */
+  }
+
+  .navbar ul {
+    display: flex; /* Show navbar items by default on larger screens */
+  }
+}

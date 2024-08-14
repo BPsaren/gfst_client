@@ -1,0 +1,83 @@
+.admin-users-section {
+  padding: 20px;
+ 
+}
+
+.allConsumerContainer{
+  margin-bottom: 20px;
+}
+
+
+
+.allConsumerContainer p {
+  font-size: 24px;
+  color: black;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.allConsumerContainer label {
+  margin-right: 10px;
+  font-size: 16px;
+  color: #444;
+  font-weight: bold;
+}
+
+.allConsumerContainer select {
+  padding: 5px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.pdf-viewer-container {
+  margin-top: 20px;
+}
+
+.consumer-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+
+.consumer-table thead {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  background-color: #4a4e69;
+  color: white;
+  
+}
+
+.consumer-table th, .consumer-table td {
+  padding: 12px;
+  border: 2px solid #ddd;
+  text-align: left;
+  
+}
+
+.table-header {
+  background-color: #4a4e69;
+  color: white;
+  
+}
+
+.consumer-table tbody {
+  display: block;
+  max-height: 400px; /* Set the max height for scroll */
+  overflow-y: auto;
+  width: 100%;
+
+}
+
+.consumer-table thead, .consumer-table tbody tr {
+  display: table;
+  width: 100%;
+  table-layout: fixed;
+  
+}
+
+.consumer-table tbody tr:hover {
+  background-color: #f1f1f1;
+}

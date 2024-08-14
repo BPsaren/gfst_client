@@ -1,0 +1,83 @@
+/* Main section styling */
+.investment-monthly-audit-section {
+    padding: 20px;
+    margin-top: 130px;
+   
+  }
+  
+  /* Container for loan data summary */
+  .container-loan-data {
+    margin-bottom: 20px;
+  }
+  .container-insvest-data {
+    margin-left: 100px;
+    height: 150px;
+    width: 400px;
+    margin-bottom: -35px;
+    border-radius: 9px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    margin-top: -50px;
+   
+  }
+.container-insvest-data  {
+   font-size: 18px;
+    font-weight: bold;
+    padding-top: 20px;
+    
+}
+
+
+  /* Month selector and search input styling */
+  .month-selector-container {
+    margin-bottom: 20px;
+  }
+
+  .search-input-container{
+    margin-left: 150px;
+    margin-top: -20px;
+  }
+  
+  /* Table container with scroll functionality */
+  .table-container-ins-month {
+    border-radius: 9px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    margin-top: 20px;
+    margin-left: 150px;
+    overflow-x: auto; /* Enable horizontal scrolling */
+  }
+  
+  /* Table styling */
+  .investment-table {
+    border-collapse: collapse;
+    width: 100%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add shadow to the table */
+  }
+  
+  /* Table header and cell styling */
+  .investment-table th, .investment-table td {
+    padding: 12px;
+    text-align: left;
+    border: 1px solid #ddd; /* Border for table cells */
+  }
+  
+  /* Header row styling */
+  .investment-table thead tr {
+    background-color: #f2f2f2;
+  }
+  
+  /* Body row styling */
+  .investment-table tbody tr {
+    border-bottom: 1px solid #ddd;
+  }
+  
+  /* Styling for the PDF viewer container */
+  .pdf-viewer-container {
+    margin-bottom: 20px;
+  }
+  
+  /* Fixed height for table container to enable vertical scrolling */
+  .table-container-ins-month {
+    max-height: 400px; /* Adjust height as needed */
+    overflow-y: auto; /* Enable vertical scrolling */
+  }
+  

@@ -1,0 +1,38 @@
+.print-button-of-transaction {
+    margin-left: 25px;
+    height: 25px;
+    width:120px;
+    background-color: gray;
+    text-decoration: unset;
+
+}
+.print-button-of-transaction:hover{
+    background-color:seagreen;
+    height: 28px;
+    width:123px;
+    text-decoration: unset;
+   
+}
+.transaction-consumer-details {
+ 
+  font-size: 20px;
+  margin-top: 100px;
+    margin-bottom: -100px; 
+    height: 218px;
+    width: 325px;
+    
+    background-color: white;
+    border-radius: 9px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+.container-transaction input {
+border: 1px solid seagreen;
+width: 300px;
+border-radius: 5px;
+padding-left: 10px;
+}
+
+.table-shadows {
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+

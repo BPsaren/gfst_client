@@ -1,0 +1,21 @@
+.download-pdf-button {
+    background-color: #4caf50; /* Green background */
+    color: white; /* White text */
+    border: none;
+    margin-left: 12px;
+    text-align: center;
+    text-decoration: none;
+   
+    font-size: 16px;
+     margin-top:-10px;
+   height: 35px;
+   width: 100px;
+    border-radius: 4px;
+  }
+  
+  .download-pdf-button:hover {
+    background-color: green; /* Darker green on hover */
+    height: 38px;
+    width: 106px;
+}
+  

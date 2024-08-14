@@ -1,0 +1,111 @@
+/* AllConsumerData.css */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+.admin-users-section {
+    padding: 20px;
+}
+
+.ConsumerListContainer {
+    height: 50px;
+    width: 500px;
+    border: 2px solid #ccc;
+    background-color: seagreen;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.ConsumerListContainer p {
+    font-weight: bold;
+    color: white;
+    font-size: 18px;
+}
+
+.ConsumerListContainer span {
+    color: aqua;
+    padding-left: 5px;
+}
+
+.container h1 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.search-input {
+    margin-bottom: 20px;
+    padding: 10px;
+    height: 30px;
+    width: 500px;
+    border: 1px solid seagreen;
+    border-radius: 5px;
+}
+
+.delete-button {
+    padding: 10px 15px;
+    color: white;
+    background-color: red;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+.table-container {
+    overflow-x: auto;
+    border-radius: 9px;
+}
+
+.users-table {
+    width: 100%;
+    border-collapse: collapse;
+    
+}
+
+.users-table th,
+.users-table td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+.users-table th {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.users-table tr:hover {
+    background-color: #f1f1f1;
+}
+
+.users-table .checkbox-cell {
+    width: 5%;
+}
+
+.actions-cell {
+    display: flex;
+    gap: 8px;
+}
+
+.actions-cell button {
+    text-decoration: none;
+    padding: 8px 12px;
+   
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.actions-cell button:hover {
+    background-color: #e74c3c;
+    height: 30px;
+    width: 80px;
+}

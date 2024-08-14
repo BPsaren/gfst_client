@@ -1,0 +1,68 @@
+.transaction-history-section {
+    padding: 20px;
+  
+}
+
+.containerm {
+    margin-bottom: 20px;
+}
+
+.section-heading {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.consumer-details-investment {
+    margin-top: 100px;
+    margin-bottom: -10px; 
+    height: 218px;
+    width: 325px;
+    margin-left: 200px;
+    background-color: white;
+    border-radius: 9px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+
+.search-input-investment {
+    margin-bottom: 20px;
+    padding: 10px;
+    height: 35px;
+    padding-left: 70px;
+    width: 400px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-left: 600px;
+}
+
+.table-container-investment {
+    margin-top: 20px;
+    margin-left: 150px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+
+
+.transaction-table {
+    border-collapse: collapse;
+    width: 100%;
+   
+}
+
+.table-header {
+    background-color: #f2f2f2;
+}
+
+.table-header th {
+    padding: 12px;
+    text-align: left;
+}
+
+.table-row {
+    border-bottom: 1px solid #ddd;
+}
+
+.table-row td {
+    padding: 12px;
+    text-align: left;
+}

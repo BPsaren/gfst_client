@@ -1,0 +1,25 @@
+.download-button {
+    background-color: gray;
+    color: #fff;
+    border: 2px solid seagreen;
+    border-radius: 4px;
+    text-align: center;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 14px;
+    margin-top: 20px;
+    transition: background-color 0.3s, border-color 0.3s;
+  }
+  
+  .download-button:hover {
+    background-color: green;
+    border-color: gray;
+    height: auto;
+    width: auto;
+  }
+  
+  .download-button:disabled {
+    cursor: not-allowed;
+    opacity: 0.6;
+  }
+  

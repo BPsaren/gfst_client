@@ -1,0 +1,80 @@
+.admin-users-section {
+    padding: 20px;
+}
+
+.container {
+    margin-bottom: 20px;
+}
+
+.section-heading {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.total-amount {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.search-input {
+    margin-bottom: 20px;
+    padding: 10px;
+    width: 100%;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.table-container {
+    margin-top: 20px;
+}
+
+.investment-table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.table-header {
+    background-color: #f2f2f2;
+}
+
+.table-header th {
+    padding: 12px;
+    text-align: left;
+}
+
+.table-row {
+    border-bottom: 1px solid #ddd;
+}
+
+.table-row td {
+    padding: 12px;
+    text-align: left;
+}
+
+.account-link {
+    
+    text-decoration: none;
+}
+
+.account-link:hover {
+    text-decoration: underline;
+}
+
+.edit-link {
+    margin-right: 8px;
+}
+
+.delete-button {
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.delete-button:hover {
+    background-color: #c82333;
+}
