@@ -31,7 +31,7 @@ export const LoanDeposit = () => {
     if (!confirmed) return;
 
     try {
-      const response = await fetch(`http://localhost:3000/api/admin/loandeposit`, {
+      const response = await fetch(`https://gfst-server.vercel.app/api/admin/loandeposit`, {
         method: "PATCH",
         headers: {
           "Content-Type": "application/json",
