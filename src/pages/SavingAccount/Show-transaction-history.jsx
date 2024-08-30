@@ -15,7 +15,7 @@ export const ShowTransactionHistory = () => {
 
     const fetchAllConsumerData = async () => {
         try {
-            const response = await fetch(`http://localhost:3000/api/admin/transactionhistory/${account_no}`, {
+            const response = await fetch(`https://gfst-server.vercel.app/api/admin/transactionhistory/${account_no}`, {
                 method: "GET",
                 headers: {
                     Authorization: authorizationToken,
