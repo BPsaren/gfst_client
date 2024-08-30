@@ -130,7 +130,7 @@ export const MonthlyAuditData = () => {
   // Function to fetch consumer data
   const fetchAllConsumerData = async () => {
     try {
-      const response = await fetch("http://localhost:3000/api/admin/allConsumers", {
+      const response = await fetch("https://gfst-server.vercel.app/api/admin/allConsumers", {
         method: "GET",
         headers: {
           Authorization: authorizationToken,
