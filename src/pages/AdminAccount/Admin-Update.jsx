@@ -16,7 +16,7 @@ export const AdminUpdate = () => {
   // get single user data
   const singleDataById = async () => {
     try {
-      const response = await fetch(`http://localhost:3000/api/admin/users/${params.id}`, {
+      const response = await fetch(`https://gfst-server.vercel.app/api/admin/users/${params.id}`, {
         method: "get",
         headers: {
           Authorization: authorizationToken,
@@ -50,7 +50,7 @@ export const AdminUpdate = () => {
 
     if (window.confirm("Are you sure you want to update the admin data?")) {
       try {
-        const response = await fetch(`http://localhost:3000/api/admin/users/update/${params.id}`, {
+        const response = await fetch(`https://gfst-server.vercel.app/api/admin/users/update/${params.id}`, {
           method: "PATCH",
           headers: {
             "Content-Type": "application/json",
