@@ -20,7 +20,7 @@ export const FindAccounts = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const response = await fetch(`http://localhost:3000/api/admin/findaccount?account_no=${selectedAccount}`, {
+      const response = await fetch(`https://gfst-server.vercel.app/api/admin/findaccount?account_no=${selectedAccount}`, {
         method: "GET",
         headers: {
           Authorization: authorizationToken,
