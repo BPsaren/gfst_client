@@ -26,7 +26,7 @@ export const ProfitInvestment = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const response = await fetch(`http://localhost:3000/api/admin/profitoncustomerinvestment`, {
+      const response = await fetch(`https://gfst-server.vercel.app/api/admin/profitoncustomerinvestment`, {
         method: "PATCH",
         headers: {
           "Content-Type": "application/json",
