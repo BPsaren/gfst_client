@@ -35,7 +35,7 @@ export const AdminCreateLoanAccount = () => {
     if (!confirmed) return;
 
     try {
-      const response = await fetch("http://localhost:3000/api/admin/admincreateloanaccount", {
+      const response = await fetch("https://gfst-server.vercel.app/api/admin/admincreateloanaccount", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
