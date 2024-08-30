@@ -30,7 +30,7 @@ export const CreateAccount = () => {
     // Confirmation dialog
     if (window.confirm("Re-check your credentials data because after creating the account, you cannot edit it. Are you sure you want to proceed?")) {
       try {
-        const response = await fetch("http://localhost:3000/api/admin/admincreateaccount", {
+        const response = await fetch("https://gfst-server.vercel.app/api/admin/admincreateaccount", {
           method: "POST",
           headers: {
             "Content-Type": "application/json",
