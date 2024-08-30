@@ -28,7 +28,7 @@ export const DepositAmount = () => {
     // Confirmation dialog
     if (window.confirm("Are you sure you want to deposit this amount?")) {
       try {
-        const response = await fetch(`http://localhost:3000/api/admin/deposit`, {
+        const response = await fetch(`https://gfst-server.vercel.app/api/admin/deposit`, {
           method: "PATCH",
           headers: {
             "Content-Type": "application/json",
