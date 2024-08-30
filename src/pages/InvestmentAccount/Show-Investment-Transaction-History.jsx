@@ -13,7 +13,7 @@ export const ShowInvestMentTransactionHistory = () => {
 
     const fetchAllConsumerData = async () => {
         try {
-            const response = await fetch(`http://localhost:3000/api/admin/transactioninvestnhistory/${account_no}`, {
+            const response = await fetch(`https://gfst-server.vercel.app/api/admin/transactioninvestnhistory/${account_no}`, {
                 method: "GET",
                 headers: {
                     Authorization: authorizationToken,
