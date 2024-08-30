@@ -14,7 +14,7 @@ export const ShowTransactionLoanHistory = () => {
 
     const fetchAllConsumerData = async () => {
         try {
-            const response = await fetch(`http://localhost:3000/api/admin/transactionloanhistory/${account_no}`, {
+            const response = await fetch(`https://gfst-server.vercel.app/api/admin/transactionloanhistory/${account_no}`, {
                 method: "GET",
                 headers: {
                     Authorization: authorizationToken,
@@ -35,7 +35,7 @@ export const ShowTransactionLoanHistory = () => {
 
     const deleteUser = async (id) => {
         try {
-            const response = await fetch(`http://localhost:3000/api/admin/transactionloanhistory/delete/${id}`, {
+            const response = await fetch(`https://gfst-server.vercel.app/api/admin/transactionloanhistory/delete/${id}`, {
                 method: "DELETE",
                 headers: {
                     Authorization: authorizationToken,
