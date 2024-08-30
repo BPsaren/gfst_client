@@ -11,7 +11,7 @@ export const AllInvestmentAccount = () => {
 
   const fetchAllConsumerData = async () => {
     try {
-      const response = await fetch("http://localhost:3000/api/admin/getallinvestments", {
+      const response = await fetch("https://gfst-server.vercel.app/api/admin/getallinvestments", {
         method: "GET",
         headers: {
           Authorization: authorizationToken,
@@ -43,7 +43,7 @@ export const AllInvestmentAccount = () => {
     if (!confirmed) return; // If the user clicks "Cancel", do not proceed
   
     try {
-      const response = await fetch(`http://localhost:3000/api/admin/getallinvestments/delete/${id}`, {
+      const response = await fetch(`https://gfst-server.vercel.app/api/admin/getallinvestments/delete/${id}`, {
         method: "DELETE",
         headers: {
           Authorization: authorizationToken,
