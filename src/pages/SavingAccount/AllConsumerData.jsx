@@ -12,7 +12,7 @@ export const AllConsumerData = () => {
 
   const fetchAllConsumerData = async () => {
     try {
-      const response = await fetch("http://localhost:3000/api/admin/allConsumers", {
+      const response = await fetch("https://gfst-server.vercel.app/api/admin/allConsumers", {
         method: "GET",
         headers: {
           Authorization: authorizationToken,
@@ -41,7 +41,7 @@ export const AllConsumerData = () => {
   const deleteUser = async (id) => {
     if (window.confirm("Are you sure you want to delete this consumer account?")) {
       try {
-        const response = await fetch(`http://localhost:3000/api/admin/allConsumers/delete/${id}`, {
+        const response = await fetch(`https://gfst-server.vercel.app/api/admin/allConsumers/delete/${id}`, {
           method: "DELETE",
           headers: {
             Authorization: authorizationToken,
@@ -64,7 +64,7 @@ export const AllConsumerData = () => {
     if (window.confirm("Are you sure you want to delete the selected consumer accounts?")) {
       try {
         const deleteRequests = selectedUsers.map(id =>
-          fetch(`http://localhost:3000/api/admin/allConsumers/delete/${id}`, {
+          fetch(`https://gfst-server.vercel.app/api/admin/allConsumers/delete/${id}`, {
             method: "DELETE",
             headers: {
               Authorization: authorizationToken,
