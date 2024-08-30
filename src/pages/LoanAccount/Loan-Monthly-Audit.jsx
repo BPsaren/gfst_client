@@ -17,7 +17,7 @@ export const LoanMonthlyAudit = () => {
 
   const fetchAllLoanHolders = async () => {
     try {
-      const response = await fetch("http://localhost:3000/api/admin/getallloanholders", {
+      const response = await fetch("https://gfst-server.vercel.app/api/admin/getallloanholders", {
         method: "GET",
         headers: {
           Authorization: authorizationToken,
