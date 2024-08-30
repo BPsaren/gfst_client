@@ -124,9 +124,7 @@ export const AllInvestmentAccount = () => {
                 <td>{curUser.mobile_no}</td>
                 <td>{curUser.mail_id}</td>
                 <td>{curUser.individual_total__investment}</td>
-                <td className="actions">
-                 
-                  </td>
+        
 
                   <td>
                   <button onClick={() => deleteUser(curUser._id)} className="delete-button">Delete</button>
