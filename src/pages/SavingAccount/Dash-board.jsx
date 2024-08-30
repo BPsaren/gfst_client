@@ -15,7 +15,7 @@ export const Dashboard = () => {
   // Fetch Loan Holders Data
   const fetchAllLoanHolders = async () => {
     try {
-      const response = await fetch("http://localhost:3000/api/admin/getallloanholders", {
+      const response = await fetch("https://gfst-server.vercel.app/api/admin/getallloanholders", {
         method: "GET",
         headers: {
           Authorization: authorizationToken,
@@ -47,7 +47,7 @@ export const Dashboard = () => {
   // Fetch Investment Data
   const fetchAllInvestmentData = async () => {
     try {
-      const response = await fetch("http://localhost:3000/api/admin/getallinvestments", {
+      const response = await fetch("https://gfst-server.vercel.app/api/admin/getallinvestments", {
         method: "GET",
         headers: {
           Authorization: authorizationToken,
