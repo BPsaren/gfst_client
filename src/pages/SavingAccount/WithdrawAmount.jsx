@@ -30,7 +30,7 @@ export const WithdrawAmount = () => {
     // Confirmation dialog
     if (window.confirm("Are you sure you want to withdraw this amount?")) {
       try {
-        const response = await fetch(`http://localhost:3000/api/admin/withdraw`, {
+        const response = await fetch(`https://gfst-server.vercel.app/api/admin/withdraw`, {
           method: "PATCH",
           headers: {
             "Content-Type": "application/json",
