@@ -104,7 +104,7 @@ export const AllInvestmentAccount = () => {
               <th>Mobile Number</th>
               <th>Mail Id</th>
               <th>Total Loan for Business</th>
-              <th>Update</th>
+             
               <th>Actions</th>
             </tr>
           </thead>
@@ -125,9 +125,7 @@ export const AllInvestmentAccount = () => {
                 <td>{curUser.mail_id}</td>
                 <td>{curUser.individual_total__investment}</td>
                 <td className="actions">
-                  <Link to={`/admin/allConsumers/${curUser._id}/edit`} className="edit-link">
-                    Edit
-                  </Link>
+                 
                   </td>
 
                   <td>
