@@ -23,7 +23,7 @@ export const UpdateConsumerData = () => {
   useEffect(() => {
     const fetchConsumerData = async () => {
       try {
-        const response = await fetch(`http://localhost:3000/api/admin/allConsumers/${params.id}`, {
+        const response = await fetch(`https://gfst-server.vercel.app/api/admin/allConsumers/${params.id}`, {
           method: "GET",
           headers: {
             Authorization: authorizationToken,
@@ -51,7 +51,7 @@ export const UpdateConsumerData = () => {
     e.preventDefault();
 
     try {
-      const response = await fetch(`http://localhost:3000/api/admin/allConsumers/update/${params.id}`, {
+      const response = await fetch(`https://gfst-server.vercel.app/api/admin/allConsumers/update/${params.id}`, {
         method: "PATCH",
         headers: {
           "Content-Type": "application/json",
