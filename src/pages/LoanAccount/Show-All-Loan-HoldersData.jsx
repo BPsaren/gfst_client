@@ -11,7 +11,7 @@ export const GetAllLoanHolders = () => {
 
   const fetchAllConsumerData = async () => {
     try {
-      const response = await fetch("http://localhost:3000/api/admin/getallloanholders", {
+      const response = await fetch("https://gfst-server.vercel.app/api/admin/getallloanholders", {
         method: "GET",
         headers: {
           Authorization: authorizationToken,
@@ -43,7 +43,7 @@ export const GetAllLoanHolders = () => {
     if (!confirmed) return;
 
     try {
-      const response = await fetch(`http://localhost:3000/api/admin/getallloanholders/delete/${id}`, {
+      const response = await fetch(`https://gfst-server.vercel.app/api/admin/getallloanholders/delete/${id}`, {
         method: "DELETE",
         headers: {
           Authorization: authorizationToken,
